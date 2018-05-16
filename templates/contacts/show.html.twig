@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ contact.number }}{% endblock %}
+
+{% block body %}
+ <h1>{{ contact.name }}</h1>
+ <p>{{ contact.number }}</p>
+ <hr>
+ <a href="/">Go Back</a>
+{% endblock %}
